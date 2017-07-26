@@ -1,0 +1,80 @@
+/**
+* 弹出框样式
+*/
+#mymodel{
+    position: fixed;left: 50%;top: 50%;z-index: 1050;transform: translate(-50%, -50%);
+    min-height: 500px;min-width: 320px;overflow: hidden;
+    background: #F5F7FA;
+    border-radius: 4px;
+}
+#mymodel .model-header{
+    height: 50px;
+    line-height: 50px;text-align: center;
+    background: #fff;
+}
+#mymodel .model-content{
+    margin: 10px;min-height: 400px;max-height: 520px;overflow: auto;
+}
+#mymodel .search-panel .input-group-addon{
+    padding: 0;width: 30px;
+    background:#fff url('../images/commonicons/search-icon.svg') center center no-repeat;
+}
+
+#mymodel .btn-panel{
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+}
+#mymodel .btn-panel .btn{
+    margin: 0 25px;
+    width: 90px;
+}
+
+.singletree{
+    width: 450px;
+}
+.singletree-container{
+    height: 330px;overflow: auto;padding: 10px;
+    border: 1px solid #e9e9e9;background: #fff;
+}
+
+.multitree{
+    width: 600px;
+}
+.multitree-container {
+    height: 330px;overflow: hidden;
+}
+.multitree-container:after{
+    content: " ";display: block;visibility: hidden;clear: both;
+}
+.multitree-tree{
+    float: left;
+    width: 270px;height: 330px;overflow: auto;padding: 10px;
+    border: 1px solid #e9e9e9;background: #fff;
+}
+.multitree-action-arrow{
+    float: left;
+    width: 40px;height: 330px;
+}
+.multitree-nodes{
+    float: left;
+    width: 270px;height: 330px;overflow: auto;padding: 10px;
+    border: 1px solid #e9e9e9;background: #fff;
+}
+.multitree-nodes li{
+    height: 30px;line-height: 30px;
+    cursor: pointer;
+}
+.multitree-nodes li:hover{
+    background: #e9e9e9;
+}
+.multitree-nodes li input[type='checkbox']{
+    margin: 0 5px;vertical-align: -2px;
+}
+
+.multitable{
+    width: 960px;
+}
+.multitable-container{
+    height: 430px;overflow: auto;
+}
